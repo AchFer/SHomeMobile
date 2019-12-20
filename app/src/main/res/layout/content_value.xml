@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".SalonnActivity"
+    tools:showIn="@layout/app_bar_value">
+
+    <ScrollView
+        android:id="@+id/scrollbar"
+        android:layout_width="match_parent"
+        android:layout_weight="9.5"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:scrollbars="none"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="82dp"
+                android:layout_height="63dp"
+                android:layout_gravity="center"
+                android:src="@drawable/temperature" />
+
+            <TextView
+                android:layout_width="119dp"
+                android:layout_height="52dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="Temperature"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/temp"
+                android:layout_width="119dp"
+                android:layout_height="52dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="Cuisine"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/grey_light" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="82dp"
+                android:layout_height="63dp"
+                android:layout_gravity="center"
+                android:src="@drawable/luminosite" />
+
+            <TextView
+                android:layout_width="119dp"
+                android:layout_height="52dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="Luminosity"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/lum"
+                android:layout_width="119dp"
+                android:layout_height="52dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="Cuisine"
+                android:textSize="20dp"
+ />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/grey_light" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="82dp"
+                android:layout_height="63dp"
+                android:layout_gravity="center"
+                android:src="@drawable/gaz" />
+
+            <TextView
+                android:layout_width="119dp"
+                android:layout_height="52dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="Gas"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/gaz"
+                android:layout_width="119dp"
+                android:layout_height="52dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="Cuisine"
+                android:textSize="20dp" />
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/grey_light" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="82dp"
+                android:layout_height="63dp"
+                android:layout_gravity="center"
+                android:src="@drawable/couleur" />
+            <TextView
+                android:layout_width="119dp"
+                android:layout_height="52dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="Color"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/couleur"
+                android:layout_width="119dp"
+                android:layout_height="52dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="Cuisine"
+                android:textSize="20dp" />
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/grey_light" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="82dp"
+                android:layout_height="63dp"
+                android:layout_gravity="center"
+                android:src="@drawable/objet" />
+
+            <TextView
+                android:layout_width="119dp"
+                android:layout_height="52dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="Object"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/objet"
+                android:layout_width="119dp"
+                android:layout_height="52dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="Cuisine"
+                android:textSize="20dp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
